@@ -6,14 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="css/layout_tablet.css">
-    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/layout_smartphone.css">
+    <link rel="stylesheet" media="screen and (max-width: 75rem)" href="css/layout_tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 48rem)" href="css/layout_smartphone.css">
+    <script src="https://kit.fontawesome.com/022be58334.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <div class="container-grid conteudo-header">
             <img class="logo"  src="./imagens/logos_senai_branco.png" alt="Logo senai">
+
+            <a href="#" onclick="mostrarMenu()" class="menu-barras">
+                <i id="icone-menu" class="fa-solid fa-bars"></i>
+            </a>
+
             <nav id="menu-header" class="menu-header">
+
                 <a href="#" title="Inicio da página">Inicio</a>
                 <a href="#mouse">Sobre</a>
                 <a href="#endereco">Endereço</a>
@@ -22,6 +29,7 @@
             
         </div>
     </header>
+    
     <main>
         <div class="banner">
             <div class="container-grid conteudo-banner">
@@ -33,6 +41,7 @@
                 </div>
             </div>
         </div>
+        
         <section class="sobre-projetos">
             <div class="container-grid">
                 <h2>Sobre os Projetos</h2>
@@ -46,6 +55,7 @@
                 </div>
             </div>
         </section>
+
         <section class="info">
             <div class="container-grid conteudo-info">
                 <div class="card-info">
@@ -62,19 +72,24 @@
                 </div>
             </div>
         </section>
+
         <section class="endereco" id="endereco">
             <div class="container-grid conteudo-endereco">
                 <h2>Endereço:</h2>
                 <div class="texto-endereco">
                     <p>Alameda Barão de Limeira, 539 Santa Cecilia, São Paulo - SP CEP: 01202-001</p>
                 </div>
-                <a href=https://goo.gl/maps/Wh6hbeFS51RCSmJQ9 target="blank"><img class="mapa" src="imagens/mapa.png" alt="Mapa mostrando a localização da escola."></a>
+                <a href="https://goo.gl/maps/34G5F6bXfJRjM4Bs8" target="blank"><img class="mapa" src="imagens/mapa.png" alt="Mapa mostrando a localização da escola."></a>
             </div>
         </section>
+
     </main>
+
     <footer>
         <span>Copyright &copy; 2021 - Escola Senai de Informática</span>
     </footer>
   
+    <script src="script.js"></script>
+
 </body>
 </html>
