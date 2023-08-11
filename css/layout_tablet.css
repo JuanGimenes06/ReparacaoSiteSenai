@@ -11,6 +11,10 @@
     width: 80%;
 }
 
+.banner{
+    background-image: url(../imagens/imagem-fundo-banner.jpg);
+}
+
 .texto-sobre {
     width: 80%;
     margin-top: 45px;
@@ -18,6 +22,7 @@
     flex-direction: column;
     height: 430px;
     justify-content: space-between;
+
 }
 
 .conteudo-info {
@@ -32,6 +37,7 @@
     align-items: center;
     height: 660px;
     justify-content: space-between;
+    
 }
 
 .conteudo-endereco h2 {
@@ -45,4 +51,9 @@
 .mapa {
     position: unset;
     width: 400px;
+    margin-top: 40px;
+}
+
+.texto-endereco{
+    width: 100%;
 }

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -57,7 +61,7 @@ header {
 }
 
 .botao{
-    background-color: #E31B0B;
+    background-color: #000;
     height: 45px;
     width: 150px;
     text-align: center;
@@ -239,8 +243,9 @@ h1 {
 .mapa {
     width: 250px;
     position: absolute;
-    top: 33px;
+    top: 0px;
     right: 0px;
+    
 }
 
 footer {

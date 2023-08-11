@@ -36,9 +36,13 @@
     height: unset;
 }
 
+.botao{
+    background-color: #E31B0B;
+}
+
 .mapa {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 @media screen and (max-width : 360px){
